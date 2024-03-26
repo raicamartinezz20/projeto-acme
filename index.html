@@ -7,11 +7,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/root.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/home.css">
     <title>ACME FILMES </title>
 </head>
 <body>
     <header>
+        <img src="./img/voltar.png" alt="voltar">
         <div class="opcoes">
             <span> <a href="./html/filmes.html"> FILMES </a> </span> 
             <span> <a href="./html/series.html"> SÉRIES </a> </span> 
@@ -23,50 +24,37 @@
         <button class="botao-cadastro"> <a href="" class="botao-criar">CADASTRO</a> </button>
     </header>
     <main>
-        <div class="container-principal"></div>
-        <button>
-            <a href="./html/descricao-barbie.html"> <img src="./img/filmes/filme-barbie.png" alt="Barbie-cartaz"> </a>
-        </button>
-        <a>BARBIE</a>
-        <button>
-            <a href="./html/descricao-luca.html"> <img src="./img/filmes/filme-luca.png" alt="Luca-cartaz"></a>
-        </button>
-        <a>LUCA</a>
-        <button>
-            <a href="./html/descricao-elvis.html"> <img src="./img/filmes/filme-elvis.png" alt="Elvis-cartaz"></a>
-        </button>
-        <a>ELVIS</a>
-        <button>
-            <a href="./html/descricao-incocacao3.html"> <img src="./img/filmes/filme-invocacao3.png" alt="Invocacao-cartaz"></a>
-        </button>
-        <a>INVOCAÇÃO DO
-             MAL 3</a>
-             <button>
-                <a href="./html/descricao-pequenaSereia.html"> <img src="./img/filmes/filme-pequena.png" alt="PequenaSereia-cartaz"></a>
-            </button>
-            <a>PEQUENA SEREIA</a>
-            <button>
-                <a href="./html/descricao-got.html"> <img src="./img/séries/serie-got.png" alt="Got-cartaz"></a>
-            </button>
-            <a>GAME OF
-                THRONES
-            </a>
-            <button>
-                <a href="./html/descricao-greys.html"> <img src="./img/séries/serie-greys.png" alt="Greys-cartaz"></a>
-            </button>
-            <a>GREY´S ANATOMY</a>
-            <button>
-                <a href="./html/descricao-gossip.html"> <img src="./img/séries/serie-gossip.png" alt="Gossip-cartaz"></a>
-            </button>
-            <a>GOSSIP GIRL</a>
-            <button>
-                <a href="./html/descricao-outerBanks.html"> <img src="./img/séries/serie-obx.png" alt="OuterBanks-cartaz"></a>
-            </button>
-            <a>OUTER BANKS</a>
-            <button>
-                <a href="./html/descricao-casaDragao.html"> <img src="./img/séries/serie-casadodragao.png" alt="CasaDragao-cartaz"></a>
-            </button>
-            <a>CASA DO DRAGÃO</a>
+        <div class="cards">
+            <div class="filmeSerie">
+                <a href="./html/barbieDescricao.html">
+                    <img src="./img/filmes/filme-barbie.png" alt="">
+                </a>
+                <span>BARBIE</span>
+            </div>
+            <div class="filmeSerie">
+                <a href="./html/lucaDescricao.html">
+                <img src="./img/filmes/filme-luca.png" alt="">
+                <span>LUCA</span>
+            </div>
+            <div class="filmeSerie">
+                <img src="./img/filmes/filme-elvis.png" alt="">
+                <span>ELVIS</span>
+            </div>
+            <div class="filmeSerie">
+                <a href="./html/invocacaoDescricao.html">
+                    <img src="./img/filmes/filme-invocacao3.png" alt="">
+                </a>
+                <span>INVOCAÇÃO DO 
+                    MAL 3</span>
+            </div>
+            <div class="filmeSerie">
+                <a href="./html/pequenaDescricao.html">
+                    <img src="./img/filmes/filme-pequena.png" alt="">
+                </a>
+                <span>PEQUENA SEREIA</span>
+            </div>
+            
+        </div>
     </main>
     
 </body>

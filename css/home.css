@@ -21,6 +21,8 @@ body{
 header{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .sup-header{
@@ -28,38 +30,41 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width: 1200px;
 }
 
 .pesquisa{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.pesquisa input{
+    padding: 0px 20px;
+    width: 1100px;
 }
 
 .lupa{
-
+    height: 64px;
+    width: 64px;
 }
-
-/* .cards{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    align-items: center;
-    justify-content: space-around;
-    gap: 24px;
-} */
-
 .cards{
     display: flex;
-    flex-wrap: wrap;
+    padding: 0px 200px;
 }
 
 .card{
     display: flex;
     flex-direction: column;
-    width: 700px;
-    height: 1000px;
+    width: 300px;
+    height: 400px;
     align-items: center;
     justify-content: space-evenly;
+}
 
+.card img{
+    width: 300px;
+    height: 400px;
 }
 
 .logo{
@@ -68,7 +73,7 @@ header{
 }
 
 span{
-    font-size: 50px;
+    font-size: 500px;
     color: aliceblue;
 }
 
